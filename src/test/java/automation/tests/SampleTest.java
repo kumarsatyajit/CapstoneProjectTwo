@@ -23,6 +23,6 @@ public class SampleTest extends BaseTest {
 	@Test
 	public void openGoogle() throws IOException, InvalidBrowserException {
 		driver = initializeDriver();
-		driver.get("https://www.google.com/");
+		driver.get("https://www.google.com/"); 
 	}
 }
