@@ -18,6 +18,11 @@ public class SampleTest extends BaseTest {
 		HomePage homePage = openUrl();
 		String title = homePage.getTitle();
 		Assert.assertTrue(title.equalsIgnoreCase("Automation Practice Site"));
-		terminateDriver();
+	}
+
+	@Test
+	public void openGoogle() throws IOException, InvalidBrowserException {
+		driver = initializeDriver();
+		driver.get("https://www.google.com/");
 	}
 }
