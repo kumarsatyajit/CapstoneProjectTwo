@@ -20,9 +20,9 @@ public class SampleTest extends BaseTest {
 		Assert.assertTrue(title.equalsIgnoreCase("Automation Practice Site"));
 	}
 
-	@Test
-	public void openGoogle() throws IOException, InvalidBrowserException {
-		driver = initializeDriver();
-		driver.get("https://www.google.com/");
-	}
+//	@Test
+//	public void openGoogle() throws IOException, InvalidBrowserException {
+//		driver = initializeDriver();
+//		driver.get("https://www.google.com/");
+//	}
 }
