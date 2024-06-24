@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T05:55:40Z" name="Suite" finished-at="2024-06-24T05:57:39Z" duration-ms="118469">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T05:55:40Z" name="Test" finished-at="2024-06-24T05:57:39Z" duration-ms="118469">
+      <class name="automation.tests.SampleTest">
+        <test-method signature="landOnHomePage()[pri:0, instance:automation.tests.SampleTest@7803bfd]" started-at="2024-06-24T05:57:32Z" name="landOnHomePage" finished-at="2024-06-24T05:57:39Z" duration-ms="7051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landOnHomePage -->
+        <test-method is-config="true" signature="terminateDriver()[pri:0, instance:automation.tests.SampleTest@7803bfd]" started-at="2024-06-24T05:57:39Z" name="terminateDriver" finished-at="2024-06-24T05:57:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+      </class> <!-- automation.tests.SampleTest -->
+      <class name="automation.tests.HomePageTestCases">
+        <test-method signature="homePageArrivalsImagesDescription()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:55:40Z" name="homePageArrivalsImagesDescription" finished-at="2024-06-24T05:56:47Z" duration-ms="66264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageArrivalsImagesDescription -->
+        <test-method is-config="true" signature="terminateDriver()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:56:47Z" name="terminateDriver" finished-at="2024-06-24T05:56:47Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+        <test-method signature="homePageImagesInArrivalsShouldNavigate()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:56:47Z" name="homePageImagesInArrivalsShouldNavigate" finished-at="2024-06-24T05:57:13Z" duration-ms="26445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageImagesInArrivalsShouldNavigate -->
+        <test-method is-config="true" signature="terminateDriver()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:57:13Z" name="terminateDriver" finished-at="2024-06-24T05:57:14Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+        <test-method signature="homePageWithArrivalsOnly()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:57:14Z" name="homePageWithArrivalsOnly" finished-at="2024-06-24T05:57:22Z" duration-ms="8921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWithArrivalsOnly -->
+        <test-method is-config="true" signature="terminateDriver()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:57:22Z" name="terminateDriver" finished-at="2024-06-24T05:57:23Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+        <test-method signature="homePageWithThreeSlidersOnly()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:57:23Z" name="homePageWithThreeSlidersOnly" finished-at="2024-06-24T05:57:32Z" duration-ms="9138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWithThreeSlidersOnly -->
+        <test-method is-config="true" signature="terminateDriver()[pri:0, instance:automation.tests.HomePageTestCases@21a21c64]" started-at="2024-06-24T05:57:32Z" name="terminateDriver" finished-at="2024-06-24T05:57:32Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+      </class> <!-- automation.tests.HomePageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
